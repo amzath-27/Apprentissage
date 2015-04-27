@@ -1,0 +1,3 @@
+set term post enh color eps 
+set output "r2.eps"
+plot "resultat2.3" using 1:2 title 'Erreur Moyenne (Test)', "resultat2.3" using 1:3 title 'Erreur Moyenne (Source)'
